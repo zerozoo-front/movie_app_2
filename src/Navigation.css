@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  background-color: rgb(25, 38, 31);
+  float: left;
+  display: block;
+  color: rgb(244, 244, 244);
+  list-style-type: none;
+  text-decoration: none;
+}
+ul {
+  margin-top: 20vh;
+}
+.Nav__Link {
+  color: rgb(244, 244, 244);
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 6vh;
+  height: 7vh;
+  text-align: center;
+  line-height: 7vh;
+}
+
+.Nav__Link:hover {
+  color: rgb(255, 66, 79);
+
+  background-color: rgb(34, 43, 49);
+}
+.Nav__Home:hover {
+  color: rgb(255, 66, 79);
+
+  /* background-color: rgb(34, 43, 49); */
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  width: 50%;
+  margin-left: 25%;
+  color: rgb(244, 244, 244);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stateWraper {
+  margin: 10%;
+  height: 100vh;
+  border: 1px solid rgb(24, 33, 39);
+  box-shadow: 15px 15px 3px 2px rgb(24, 33, 39);
+}
